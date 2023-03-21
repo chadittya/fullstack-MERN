@@ -1,0 +1,27 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/6419e4ce315f47b27f4eb059
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "John Duar",
+    "email" : "john.d@email.com",
+    "gender" : "Female"
+}
+
+###
+PATCH  http://localhost:5000/users/6419e4ce315f47b27f4eb059
+Content-Type: application/json
+
+{
+    "name" : "John updated",
+    "email" : "john.U@email.com",
+    "gender" : "Male"
+}
+
+###
+DELETE http://localhost:5000/users/6419e4ce315f47b27f4eb059
