@@ -22,6 +22,5 @@ SIMPLE CRUD with Mysql, Express, React, Node.JS
   npm i axios bulma react-router-dom
 ```
 
-3. create database name `crud_db`
-4. run `nodemon index.js` to start backend
-5. `npm start` to start frontend
+3. run `nodemon index.js` to start backend
+4. `npm start` to start frontend
